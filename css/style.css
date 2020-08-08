@@ -1,0 +1,238 @@
+.TopBackgroundNav{
+	/*background-image: url("https://previews.123rf.com/images/kurhan/kurhan1611/kurhan161100734/65957826-el-farmac%C3%A9utico-del-doctor-manos-sobre-fondo-azul-cl%C3%ADnica-m%C3%A9dica-.jpg");*/
+ 	background-color: #0F4C75;
+ 	margin-bottom: 0px;
+}
+
+ .UlNav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.BootomBackgroundNav{
+	/*background-image: url("https://previews.123rf.com/images/kurhan/kurhan1611/kurhan161100734/65957826-el-farmac%C3%A9utico-del-doctor-manos-sobre-fondo-azul-cl%C3%ADnica-m%C3%A9dica-.jpg");*/
+ 	background-color: #3282B8;
+ 	margin-bottom: 	0px;
+ }
+
+#Fuente{
+	color: #FFFFFF;
+	/*font-family: 'Parisienne', cursive;*/
+	/*font-family: 'Lobster', cursive;*/
+	font-family: 'Patua One', cursive;
+	font-size: 23px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.TextIran{
+
+}
+
+.TextIran:hover{
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	border-radius: 50px 20px;
+}
+
+
+.RegularFont{
+	position: relative;
+	text-align: left;
+	list-style: none;
+	padding-left: 0;
+  	margin-bottom: 0;
+	color: #FFFFFF;
+	/*font-family: 'Anton', sans-serif;*/
+	font-family: 'Patua One', cursive;
+	font-size: 17px;
+
+}
+
+.TitleCarousel{
+	color: #0F4C75;
+	font-weight: 500;
+	font-size: 90px;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Lobster', cursive;
+}
+
+.ParaphCarousel{
+	width: 500px;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	font-weight: 500;
+	font-size: 25px;
+	font-family: 'Staatliches', cursive;
+	text-shadow: 2px 2px 5px #BBE1FA;	
+}
+
+.ImgCarousel{
+	width: 100%;
+	/*height: 430px;*/
+	opacity: 0.7;
+}
+
+
+
+#FuenteCarousel{
+	color: #FFFFFF;
+	/*font-family: 'Parisienne', cursive;*/
+	/*font-family: 'Lobster', cursive;*/
+	font-family: 'Patua One', cursive;
+	font-size: 25px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.row > div{
+  	background: #BBE1FA;
+  	color: #FFFFFF;
+}
+
+.WitdhParagraph{
+ 	text-align: center;
+ 	padding: 20px;
+}
+
+.container-fluid{
+  	background: azure;
+  	position: relative;
+}
+
+.TitleInformative{
+	margin-top: 10px;
+	text-shadow: 4px 4px 4px #000000;
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;	
+}
+
+.ImgInformative{
+	margin-top: 10px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.ParagraphInformation{
+	border: 2px solid white;
+  	border-radius: 20px;
+  	padding: 10px;
+	opacity: 0.7;
+	font-size: 18px;
+  	color: #000000;
+  	font-weight: bold;
+  	text-align: justify;
+  	background-color: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.ImgSize{
+	width: 50%;
+	height: auto;
+}
+
+.container {
+  	position: relative;
+}
+
+.center {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 18px;
+}
+
+img { 
+	width: 100%;
+  	height: auto;
+  	opacity: 0.8;
+}
+
+.container-fluid1{  	
+  	position: relative;
+  	padding-top: 0px;
+}
+
+
+/* Style the header with a grey background and some padding */
+.header {
+	overflow: hidden;
+	background-color: #f1f1f1;
+	padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+	background-color: dodgerblue;
+	color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+	float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 300px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.ImgLogo{
+	width: 300px;
+	padding-right: 10px;
+}
+
+.demo {
+  	display: inline-block;
+  	width: 100%;
+  	padding-bottom: 0px;
+	box-sizing: border-box;
+}
+
+.imghvr-slide-left figcaption {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    opacity: 0.8;
+    width: 100%;
+
+}
+
+.FigureSlide{
+	width: 100%;
+}
