@@ -1,8 +1,7 @@
 /* - - > NAV DISENIO DE NAV < - - */
 
-.TopBackgroundNav{
+.backgroundnav{
  	background-color: #0F4C75;
- 	margin-bottom: 0px;
 }
 
 .RegularFont{
@@ -15,6 +14,30 @@
 	font-family: 'Patua One', cursive;
 	font-size: 17px;
 
+}
+
+.btn-outline-success1 {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.btn-outline-success1:hover {
+  	color: #0F4C75;
+  	font-weight: bold;
+  	background-color: #FFFFFF;
+  	border-color: #000000;
+ 	border-radius: 25px 25px 25px 25px;
+
+}
+
+.btn-outline-success1:focus, .btn-outline-success1.focus {
+  box-shadow: 0 0 0 0.2rem rgba(49, 158, 201, 1);
+}
+
+
+.btn-outline-success1.disabled, .btn-outline-success1:disabled {
+  color: #28a745;
+  background-color: transparent;
 }
 
 /* - - > NAV DISENIO DE NAV < - - */
@@ -38,14 +61,23 @@
 
 /* -- > DISENO PARA CAROUSEL < -- */
 
-/* - - > DISENIO PARA LOGO < - - - */
+/* - - > NAV SUPERIOR< - - - */
 
 .ImgLogo{
 	width: 300px;
-	padding-right: 10px;
 }
 
-/* - - > DISENIO PARA LOGO < - - - */
+
+.navfonta{
+	margin-top: 10%; 
+	padding: 10px; 
+	color: white; 
+	background-color: black; 
+	border-radius: 25px 0px 25px 0px;
+	margin-left: 50%
+}
+
+/* - - > NAV SUPERIOR < - - - */
 
 /* --> EFECTO SLIDE DE TEXTO CORREDIZO <-- */
 
@@ -117,7 +149,7 @@
 
 .foothermy{
 	background-color: #0F4C75;
-	height: 300px;
+	height: 128%;
 	width: 100%;
 }
 
