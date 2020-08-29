@@ -48,3 +48,59 @@
     margin-left: -15rem;
   }
 }
+
+
+/*
+  color de fondo
+*/
+
+.dash{
+
+  background-image: url(https://image.freepik.com/vector-gratis/asistencia-sanitaria-medica-color-azul_1017-26800.jpg);
+  height: 50%;  
+}
+
+.bg-marin{
+  background-color: #0F4C75;
+}
+
+.color-a{
+  position: relative;
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  /*font-family: 'Patua One', cursive;*/
+  font-size: 17px;
+  font-weight: bold;
+
+}
+
+.border-sidebar{
+  border-color: #ffffff;
+  border-radius: 10px 40px 10px 40px;
+  background: transparent;
+  color: #ffffff;
+}
+
+.border-sidebar:hover{
+  border-radius: 40px 10px 40px 10px; 
+  text-align: right;
+}
+
+i{
+  padding-left: 5px; 
+  padding-right: 5px;
+}
+
+body{
+  background: url(https://image.freepik.com/foto-gratis/cirujano-masculino-tableta-digital-sala-operaciones_107420-64791.jpg);
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+tbody{
+  color: #ffffff;
+  /*font-weight: bold;*/
+  text-shadow: 0.5px 0.5px #ffffff;
+}
