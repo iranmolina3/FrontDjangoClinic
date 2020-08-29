@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
  #wrapper {
     overflow-x: hidden;
  }
@@ -94,13 +95,28 @@ i{
 }
 
 body{
-  background: url(https://image.freepik.com/foto-gratis/cirujano-masculino-tableta-digital-sala-operaciones_107420-64791.jpg);
+  background: url(https://i.postimg.cc/nVWmmSB8/Dashboard.jpg);
   background-size: cover;
   background-attachment: fixed; 
 }
 
-tbody{
+thead{
+  background: #0F4C75;
   color: #ffffff;
   /*font-weight: bold;*/
-  text-shadow: 0.5px 0.5px #ffffff;
+}
+
+tbody{
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 3px 3px #0F4C75;
+}
+
+h1{
+  color: #0F4C75;
+  font-weight: bold;
+  font-size: 8vw;
+  text-align: center; 
+  text-shadow: 3px 3px #ffffff;
+  font-family: 'Kaushan Script', cursive;
 }
